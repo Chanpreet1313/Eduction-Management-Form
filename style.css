@@ -1,0 +1,147 @@
+body {
+    background-image:URL("pexels-pixabay-33545.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+  }
+
+   
+  .butt {
+    display: block;
+    margin: 0 auto;
+    background-color: blue !important; /* add !important to override default styles */
+    font-size: 30px;
+    text-align: center;
+    width: 390px;
+    height: 50px;
+  }
+
+  #center {
+    margin: 20px auto; /* add some margin top and bottom */
+    width: 350px;
+    background-color: rgb(220, 245, 223);
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block; /* add this */
+    text-align: left; /* add this */
+    font-size: 20px;
+  }
+
+  #center form {
+   text-align: center;
+  }
+
+  #center input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+
+  #center button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: green;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #center button[type="cancel"] {
+    display: block;
+    margin: 0 auto;
+    background-color: red;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  #myForm{
+   align-content: center;
+  }
+
+  .submit{
+    background-color: rgb(134, 246, 171);
+    margin-left: 10px;
+
+  }
+
+  #cancel{
+    background-color: rgb(255, 0, 0);
+    margin-left: 50px;
+    font-size: 20px;
+  }
+   
+  
+  #table {
+    margin: 10px auto;
+    width: 500px;
+    border: 2px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    table-layout: fixed;
+    display: none;
+  }
+
+  th, td {
+    width: 20%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  table th{
+    background-color: orangered;
+  }
+  
+  table td{
+    background-color: rgb(253, 237, 112);
+  }
+
+  .submit{
+    background-color: green;
+    font-size: 20px;
+  }  
+
+  #center button[type="submit"], #center button[type="cancel"] {
+    display: inline-block;
+    margin: 0 10px;
+    vertical-align: middle;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   
+  .input-container {
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .input-container label {
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+    margin-right: 50px;
+  }
+
+  .input-container input[type="text"] {
+    width: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    height: 8px;
+  }
+   
+  .form-container {
+    display: none;
+    margin-top: 20px;
+  }
+
